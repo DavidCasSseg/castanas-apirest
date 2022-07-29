@@ -28,7 +28,7 @@ public class Cliente implements Serializable{
 	private String nombre;
 	private String apellido;
 	
-	@Column(nullable=false, unique=true) //Indica que los valores no pueden ser nulos y que el correo sea unico
+	@Column(nullable=false, unique=true) //Indica que los valores no pueden ser nulos y que el correo sea unico (para el esquema de las tablas)
 	private String email;
 	
 	@Column(name="create_at")
